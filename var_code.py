@@ -18,7 +18,6 @@ import matplotlib.pyplot as plt
 
 # Load COINGECKO_API_KEY from .env
 
-# COINGECKO_API_KEY = "CG-KN32hDhpJEiDK2nTq2syR1oT"
 
 COINGECKO_API_KEY = os.getenv("COINGECKO_API_KEY")
 if not COINGECKO_API_KEY:
